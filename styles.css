@@ -59,11 +59,15 @@ body {
 }
 
 .imageSection {
-    background-size: cover;
     background-image: url('images\\bkgrnd.jpg');
+    background-position:center;
+    background-size: cover;
     width: 40vw;
     min-height: 150vh;
     padding: 25vw, 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .formSection {
@@ -174,4 +178,32 @@ p {
     width: 60vw;
     margin-left: 1.5rem;
     margin-top: 1.5rem;
+}
+
+.imageSection > .logo {
+    width: calc(100%)
+}
+
+.logo {
+    display: flex;
+    width: auto;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.409);
+    font-size: xxx-large;
+    gap: 3rem;
+    font-family: 'Parisienne', cursive;
+    font-weight: 1000;
+
+
+}
+
+.logo > .horse{
+    height: calc(60%);
+
+}
+
+.horse{
+    opacity: 100%;
 }
